@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header .banner{
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(img/bg-img.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+    background-size: 100% 100%;
+}
+
+
+.header .nav-link span{
+    margin: 35px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
+
+.header .nav-link span:hover{
+    color: black;
+}
+
+.header .text-box{
+    margin-top: 180px;
+    margin-bottom: 250px;
+}
+
+.header h1{
+    font-size: 45px;
+    letter-spacing: 1px;
+    color: white;
+    margin-left: 75px;
+}
+
+.header p{
+    font-size: 20px;
+    letter-spacing: normal;
+    color: white;
+    margin-left: 75px;
+}
+
+/* section-skills */
+
+.skills{
+    background-color: #F4F6F6;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.skills .skill-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills .skill-text h2{
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.skills .skill-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills .skill-list .fab{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.skills .skill-list .fab:hover{
+    color: cornflowerblue;
+}
+
+.skills .list-item p{
+    text-align: center;
+}
+
+/* section-work */
+
+.work .work-text{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.work .work-text h2{
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.work .cards{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+
+.work .card{
+    text-decoration-line: none;
+    transition: 0.5s;
+    border: none;
+    box-shadow: 0 19px 38px 0 rgba(0, 0, 0, 0.07);
+
+}
+
+.work .card:hover{
+    transform: scale(1.1);
+}
+
+.work .card-title{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+/* section-contact */
+
+.contact{
+    background-color: #F4F6F6;
+    padding-top: 75px;
+    padding-bottom: 110px;
+    padding-bottom: 50px;
+}
+
+.contact .contact-title{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+
+.contact .contact-text{
+    margin-top: 75px;
+}
+
+.contact form{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.contact .btn{
+    border: 1px solid;
+    transition: 0.5s ease;
+}
+
+.contact .btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.contact #social{
+    font-size: 45px;
+    color: black;
+}
+
+.contact #social:hover{
+    color: cornflowerblue;
+}
+
+.contact .contact-links{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.contact .contact-link{
+    margin-right: 50px;
+}
