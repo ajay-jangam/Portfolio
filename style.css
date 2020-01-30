@@ -8,7 +8,7 @@
     background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(img/bg-img.jpg);
     width: 100%;
     background-repeat: no-repeat;
-    padding-bottom: 5px;
+    padding-bottom: 60px;
     background-size: 100% 100%;
 }
 
@@ -19,6 +19,7 @@
     font-size: 20px;
     letter-spacing: 1px;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .header .nav-link span:hover{
@@ -149,11 +150,14 @@
 
 .contact .btn{
     border: 1px solid;
-    transition: 0.5s ease;
+    transition: 0.2s ease;
+    padding: 10px 30px 10px 30px;
+    background-color: black;
+    color: white;
 }
 
 .contact .btn:hover{
-    background-color: black;
+    background-color: cornflowerblue;
     color: white;
 }
 
@@ -173,4 +177,24 @@
 
 .contact .contact-link{
     margin-right: 50px;
+}
+
+.contact #topBtn{
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 13px 18px 13px 18px;
+    margin-left: 1274px;
+    margin-top: -15px;
+    border: none;
+    z-index: 1;
+}
+
+.contact #topBtn:hover{
+    background-color: cornflowerblue;
+
 }
