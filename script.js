@@ -32,4 +32,27 @@ $(document).ready(function(){
   
   // scroll to top
   
+  // form_ajax_script
+  
+  
+  // $(document).ready(function(){
+    console.log($.ajax());
+
+      function formSubmit(){
+        $.ajax({
+          type: 'POST',
+          url: 'form.php',
+          data: $('#forms').serialize(),
+          success:function(response){
+            $('#success').html(response);
+          }
+        });
+        var form = document.getElementById('forms').reset();
+        return false;
+      }
+  
+    // });
+  
+  
+    // form_ajax_script
   

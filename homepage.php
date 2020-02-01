@@ -144,24 +144,24 @@
 
         <div class="contact-text">
 
-            <form action="form.php" method="POST" id="forms" onsubmit="return formSubmit();">
+            <form action="form.php" method="POST" id="frms" onsubmit="return formSubmit();">
 
                 <div class="form-group">
                     <label>Name</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
                 </div>
 
                 <div class="form-group">
                     <label>Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
 
                 <div class="form-group">
                     <label>Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" placeholder="Your Message" required></textarea>
+                    <textarea class="form-control" name="message" id="message" rows="3" placeholder="Your Message" required></textarea>
                 </div>
                 
-                <button type="submit" class="btn" name="submit" value="submit">Sent</button>
+                <button type="submit" class="btn" name="submit" id="submit" value="submit">Submit</button>
 
                 <h3 id="success"></h3>
 
@@ -172,7 +172,7 @@
                 <a class="contact-link" id="social" title="Facebook" href="https://www.facebook.com/ajay.jangam" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a class="contact-link" id="social" title="LinkedIn" href="https://www.linkedin.com/in/ajay-jangam-6741b11a0/" target="_blank" ><i class="fab fa-linkedin-in"></i></a>
                 <a class="contact-link" id="social" title="GitHub" href="https://github.com/ajay-jangam" target="_blank" ><i class="fab fa-github"></i></a>
-                <a class="contact-link" id="social" title="Resume" href="img/Ajay_Jangam_31-01-20.pdf" target="_blank" type="application/pdf"><i class="fas fa-file-pdf"></i></a>
+                <a class="contact-link" id="social" title="Resume" href="https://drive.google.com/drive/u/0/folders/1RWOgzvgHBSVDNebL6sUdJHNT99G-Tx5f" target="_blank" type="application/pdf"><i class="fas fa-file-pdf"></i></a>
 
             </div>
 
