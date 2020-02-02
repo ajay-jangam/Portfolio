@@ -144,8 +144,8 @@
 }
 
 .contact form{
-    margin-left: 400px;
-    margin-right: 400px;
+    max-width: 40%;
+    margin: 0 auto;
 }
 
 .contact .btn{
