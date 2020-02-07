@@ -100,13 +100,16 @@
 .work .cards{
     display: flex;
     margin-bottom: 100px;
-    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .work .card{
     text-decoration-line: none;
     transition: 0.5s;
     border: none;
+    margin-bottom: 20px;
     box-shadow: 0 19px 38px 0 rgba(0, 0, 0, 0.07);
 
 }
